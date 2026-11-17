@@ -344,13 +344,14 @@ void SystemInterface::runMenu() {
             }
         }   
         if (count == 0) cout << "khong co xe\n";
-        else cout << dem << " xe | TB: $" << fixed << setprecision(2) << tong / dem << "\n";
+        else cout << count << " xe | TB: $" << fixed << setprecision(2) << sum / count << "\n";
     }
         
-        else if (chon == 9) break;
+        
+}
+else if (chon == 9) break;
 }
 }
-
 int main() {
     SystemInterface sys;
     sys.runMenu();
